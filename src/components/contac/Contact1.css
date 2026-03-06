@@ -1,0 +1,89 @@
+.container {
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/010/996/178/small/night-shining-starry-sky-blue-space-background-with-stars-space-beautiful-night-sky-free-vector.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        gap: 20px;
+        height: 100vh;
+      }
+
+      .box {
+        flex: 1;
+        padding: 20px;
+        background-color: lightblue;
+        background-color: white;
+        text-align: center;
+      }
+      .contact-container {
+        margin: 0 px;
+        margin-left: 30px;
+        flex: 1;
+        padding: 150px;
+        width: 100%;
+
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: white;
+      }
+
+      .form-group {
+        margin-bottom: 15px;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: rgba(234, 229, 229, 0.752);
+      }
+
+      input:focus,
+      textarea:focus {
+        border-color: #007bff;
+        outline: none;
+      }
+
+      .btn {
+        width: 100%;
+        padding: 10px;
+        background: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .btn:hover {
+        background: #0056b3;
+      }
+      .info-container {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+        gap: 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background: #111; */
+        padding: 40px;
+        color: white;
+        border-radius: 10px;
+      }
+
+      .info-box {
+        text-align: center;
+      }
+
+      .icon {
+        font-size: 30px;
+        display: block;
+        margin-bottom: 10px;
+      }

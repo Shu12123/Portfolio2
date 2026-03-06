@@ -1,0 +1,14 @@
+
+.pa2 {
+  font-size: 20px;
+}
+.haunt {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/010/996/178/small/night-shining-starry-sky-blue-space-background-with-stars-space-beautiful-night-sky-free-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 50px;
+  color: white;
+  min-height: 150vh;
+  height: auto;
+}

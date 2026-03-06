@@ -1,14 +1,15 @@
-import React from "react";
 import "./home1.css";
 
 const Home1 = () => {
+  const baseUrl=process.env.REACT_APP_BASE_URL
+  console.log({baseUrl})
   return (
     <section className="home">
       <div className="home-container">
 
         
         <div className="home-left">
-          <img src="/self.jpg" alt="Shubh Gupta" />
+          <img src={baseUrl+"/self.jpg"} alt="Shubh Gupta" />
         </div>
 
         

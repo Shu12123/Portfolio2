@@ -5,7 +5,7 @@ const Downhome = () => {
     <section className="experience">
       <div className="apple">My Experience</div>
       <div className="icc">
-        <ul classname="lo1">
+        <ul className="lo1">
           <li>Website Developer</li>
           <li>Software Developer</li>
           <li>Digital Marketing</li>
